@@ -25,13 +25,15 @@ class _UserListScreenState extends ConsumerState<UserListScreen> {
     _checkConnectivity();
   }
 
-  void _onScroll() {
-     final connectivity = ref.read(connectivityProvider);
+  void _onScroll() async{
     final isLoadingMore = ref.read(isLoadingMoreProvider);
     // Disable pagination when offline
-    if (connectivity.value!.contains(ConnectivityResult.none)) {
-      return;
-    }
+   
+
+    final List<ConnectivityResult> connectivityResult = await (Connectivity().checkConnectivity());
+      if (connectivityResult.contains(ConnectivityResult.none)) {
+        return;
+      }
  
     if (_scrollController.position.pixels == _scrollController.position.maxScrollExtent &&
         !(isLoadingMore)) {
