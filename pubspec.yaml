@@ -39,7 +39,6 @@ dependencies:
   retrofit: ^4.4.2
   cached_network_image: ^3.4.1
   pull_to_refresh: ^2.0.0
-  flutter_spinkit: ^5.2.1
   flutter_riverpod: ^2.6.1
   json_annotation: ^4.9.0
   shared_preferences: ^2.5.2
@@ -57,7 +56,6 @@ dev_dependencies:
   flutter_lints: ^4.0.0
   retrofit_generator: ^9.1.5
   build_runner: ^2.4.13
-  mockito: ^5.4.4
   json_serializable: ^6.9.0
   
 
