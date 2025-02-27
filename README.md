@@ -17,5 +17,5 @@ samples, guidance on mobile development, and a full API reference.
 
 Watch the app demo video directly:
 
-[Click here to watch the demo](https://drive.google.com/uc?export=download&id=18e8FVU2-TjhK2-Y20cxPUTgUwNsAKaGO)
+[Click here to watch the demo](https://drive.google.com/uc?export=download&id=18r3_KM5ytAZgXQkB1pjH9OitnKbYFn37)
 
