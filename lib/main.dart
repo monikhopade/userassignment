@@ -21,10 +21,6 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.cyan,
         visualDensity: VisualDensity.adaptivePlatformDensity,
-        scaffoldBackgroundColor: const Color.fromARGB(255, 17, 218, 228),
-        appBarTheme: const AppBarTheme(
-          backgroundColor: Color.fromARGB(255, 54, 158, 164)
-        )
       ),
       debugShowCheckedModeBanner: false,
       onGenerateRoute: AppRouter.generateRoute,
